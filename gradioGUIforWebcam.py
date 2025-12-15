@@ -2,7 +2,7 @@ import cv2
 from ultralytics import YOLO
 import gradio as gr
 
-model = YOLO(r"C:/Users/Amir/Desktop/Yolo8 Guitar/guitar_detector/weights/best.pt")
+model = YOLO(r"C:/Users/---model path---/best.pt")
 
 def predict_frame(frame):
     if frame is None:
