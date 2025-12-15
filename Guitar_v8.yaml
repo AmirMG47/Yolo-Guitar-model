@@ -1,0 +1,7 @@
+path: C:/Users/Amir/Desktop/Yolo8 Guitar/Guitar_dataset
+
+train: C:/Users/Amir/Desktop/Yolo8 Guitar/Guitar_dataset/train
+val: C:/Users/Amir/Desktop/Yolo8 Guitar/Guitar_dataset/val
+
+nc: 1
+names: [Guitar]
