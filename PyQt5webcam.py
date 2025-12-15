@@ -9,7 +9,7 @@ class YOLOWebcamApp(QWidget):
     def __init__(self):
         super().__init__()
 
-        self.model = YOLO(r"C:/Users/Amir/Desktop/Yolo8 Guitar/guitar_detector/weights/best.pt")
+        self.model = YOLO(r"C:/Users/---your path---/best.pt")
         self.cap = cv2.VideoCapture(0)
 
         self.setWindowTitle("YOLOv8 Webcam Detection")
