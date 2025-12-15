@@ -1,7 +1,7 @@
 from ultralytics import YOLO
 
 
-data_yaml = r'C:/Users/Amir/Desktop/Yolo8 Guitar/Guitar_v8.yaml'
+data_yaml = r'C:/Users/---path---/Guitar_v8.yaml'
 
 model = YOLO('yolov8s.pt')
 
