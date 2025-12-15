@@ -2,7 +2,7 @@ from ultralytics import YOLO
 import cv2
 
 # مدل را لود کن
-model = YOLO(r"C:/Users/Amir/Desktop/Yolo8 Guitar/guitar_detector/weights/best.pt")
+model = YOLO(r"C:/Users/---model path---/best.pt")
 
 # وب‌کم را فعال کن (0 یعنی وب‌کم اصلی لپ‌تاپ/سیستم)
 cap = cv2.VideoCapture(0)
