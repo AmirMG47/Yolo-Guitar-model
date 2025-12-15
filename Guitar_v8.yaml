@@ -1,7 +1,7 @@
-path: C:/Users/Amir/Desktop/Yolo8 Guitar/Guitar_dataset
+path: Your path
 
-train: C:/Users/Amir/Desktop/Yolo8 Guitar/Guitar_dataset/train
-val: C:/Users/Amir/Desktop/Yolo8 Guitar/Guitar_dataset/val
+train: train folder path
+val: valid folder path
 
 nc: 1
 names: [Guitar]
