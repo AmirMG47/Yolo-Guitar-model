@@ -9,7 +9,7 @@ if __name__ == '__main__':
     print(f"Using device: {device}")
 
     # مسیر دیتاست YAML
-    data_yaml = r'C:/Users/Amir/Desktop/Yolo8 Guitar/Guitar_v8.yaml'
+    data_yaml = r'C:/Users/---your path---/Guitar_v8.yaml'
 
     # بارگذاری مدل پایه YOLO
     model = YOLO('yolov8s.pt')
@@ -21,12 +21,11 @@ if __name__ == '__main__':
         imgsz=416,                     # اندازه تصویر کمتر → مصرف VRAM کمتر
         batch=4,                       # batch کوچک برای جلوگیری از OOM
         device=device,                 # GPU یا CPU بسته به شناسایی
-        project=r'C:/Users/Amir/Desktop',  # مسیر دلخواه ذخیره
+        project=r'C:/Users/---',  # مسیر دلخواه ذخیره
         name='guitar_detector',        # اسم پروژه
         save=True,                     # ذخیره مدل
         plots=True                      # نمایش نمودار آموزش
     )
 
     print("Training complete.")
-    #print("Model saved at:", 
-          #r'C:/Users/Amir/Desktop/yolo/output/guitar_detector/weights/best.pt')
+   
